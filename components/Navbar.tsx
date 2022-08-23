@@ -27,6 +27,7 @@ const Navbar = () => {
 
       <div>Search</div>
 
+    
       <div>
         {user ? (
           <div>Logged in</div>

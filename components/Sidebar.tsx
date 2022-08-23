@@ -48,7 +48,7 @@ const Sidebar = () => {
                  clientId=''
                  render={(renderProps) => (
                     <button
-                    className='bg-white text-lg text-[#f51997] border-[1px] border-[#f51997] font-semibold px-6 py-3 rounded-md outline-none w-full mt-3 hover: text-white hover:bg-[#f51997] cursor-pointer'
+                    className='bg-white text-lg text-[#bd2079] border-[1px] border-[#f51997] font-semibold px-6 py-3 rounded-md outline-none w-full mt-3 hover: text-white hover:bg-[#f51997] cursor-pointer'
                       onClick={renderProps.onClick}
                       disabled={renderProps.disabled}
                     >
@@ -64,6 +64,7 @@ const Sidebar = () => {
           )}
 
           <Discover/>
+        
           <SuggestedAccounts />
           <Footer />
 
